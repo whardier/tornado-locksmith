@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tornado_locksmith"
+version = "0.0.1"
+description = "Adjustable locks and semaphores extending tornado.lock"
+repository = "https://github.com/whardier/tornado-locksmith"
+authors = ["Shane R. Spencer <spencersr@gmail.com>"]
+license = "MIT"
+keywords = ["tornado", "semaphore", "lock"]
+readme = "README.rst"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+tornado = "^6.0.4"
+
+[build-system]
+requires = ["poetry>=1.0.5"]
+build-backend = "poetry.masonry.api"
