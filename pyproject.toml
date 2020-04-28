@@ -8,6 +8,9 @@ license = "MIT"
 keywords = ["tornado", "semaphore", "lock"]
 readme = "README.rst"
 
+[tool.poetry.urls]
+"Funding" = "https://github.com/sponsors/whardier"
+
 [tool.poetry.dependencies]
 python = "^3.6"
 tornado = "^6.0.4"
